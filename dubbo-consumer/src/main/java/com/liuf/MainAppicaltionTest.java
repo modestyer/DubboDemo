@@ -15,6 +15,7 @@ public class MainAppicaltionTest {
             orderService.initOrder("1");
             System.out.println("测试111");
             System.out.println("调用完成222222222");
+            System.out.println("调用完成1111111111");
             System.in.read();
         }catch (Exception e){
             e.printStackTrace();
