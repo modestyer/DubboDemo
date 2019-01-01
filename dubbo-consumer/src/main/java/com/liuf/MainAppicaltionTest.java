@@ -16,6 +16,7 @@ public class MainAppicaltionTest {
             System.out.println("测试111");
             System.out.println("调用完成222222222");
             System.out.println("调用完成1111111111");
+            System.out.println("第一个分支");
             System.in.read();
         }catch (Exception e){
             e.printStackTrace();
