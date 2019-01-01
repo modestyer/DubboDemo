@@ -14,7 +14,7 @@ public class MainAppicaltionTest {
             OrderService orderService = ioc.getBean(OrderService.class);
             orderService.initOrder("1");
             System.out.println("测试111");
-            System.out.println("调用完成");
+            System.out.println("调用完成222222222");
             System.in.read();
         }catch (Exception e){
             e.printStackTrace();
