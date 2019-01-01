@@ -13,6 +13,7 @@ public class MainAppicaltionTest {
             ClassPathXmlApplicationContext ioc = new ClassPathXmlApplicationContext("classpath:consumer.xml");
             OrderService orderService = ioc.getBean(OrderService.class);
             orderService.initOrder("1");
+            System.out.println("测试111");
             System.out.println("调用完成");
             System.in.read();
         }catch (Exception e){
